@@ -315,7 +315,7 @@ input[type=button] {
 
 .features article {
   width: 63%;
-  margin: auto;
+  margin: 30px 30px;
 }
 
 .features .features-items {
@@ -345,7 +345,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -559,7 +559,7 @@ input[type=button] {
   }
 
   header nav ul {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .header-divider {
@@ -596,8 +596,12 @@ input[type=button] {
 
   /** FEATURES **/
 
-  .feautres h2 {
-    margin-bottom: 20px;
+  .features h2 {
+    margin: 0 0 30px 0;
+  }
+
+  .features .content-wrapper {
+    margin: 50px 0;
   }
 
   .features article {
@@ -606,11 +610,16 @@ input[type=button] {
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
-    padding-top: 40px;
+    margin: 15px 0;
+    
   }
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /** REVIEWS **/
@@ -622,6 +631,7 @@ input[type=button] {
 
   .reviews h2 {
     width: 85%;
+    margin: 15px 0;
   }
 
   .reviews article figure,
@@ -632,6 +642,10 @@ input[type=button] {
   .reviews h3 {
     width: 75%;
     margin: 0;
+  }
+
+  .reviews .content-wrapper {
+    margin: 50px 0;
   }
 
   /** FOOTER **/
@@ -731,7 +745,7 @@ input[type=button] {
   }
 
   .content-wrapper {
-    max-width: 960px;
+    max-width: 1050px;
   }
 
   h2 {
@@ -776,10 +790,16 @@ input[type=button] {
 
   .features h2 {
     width: 90%;
+    margin-bottom: 40px;
   }
 
+  .features .content-wrapper {
+    margin: 50px 0;
+  
+  }
   .features article {
     flex-basis: 33%;
+    margin: 20px 0;
   }
 
   /** REVIEWS **/
